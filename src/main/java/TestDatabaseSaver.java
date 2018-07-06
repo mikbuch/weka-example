@@ -1,6 +1,7 @@
 
 import com.emaraic.ml.ModelClassifier;
 import com.emaraic.ml.ModelGenerator;
+import com.emaraic.ml.DatabaseManager;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.core.Debug;
 import weka.core.Instances;
@@ -15,16 +16,20 @@ import weka.filters.unsupervised.attribute.Normalize;
  * Created on: Jul 1, 2017
  * Github link: https://github.com/emara-geek/weka-example
  */
-public class Test {
+public class TestDatabaseSaver {
 
-    public static final String DATASETPATH = "/Users/Emaraic/Temp/ml/iris.2D.arff";
-    public static final String MODElPATH = "/Users/Emaraic/Temp/ml/model.bin";
+    private static final String DATASETPATH = "/home/pcss/github/weka-example/data/iris.2D.arff";
+    private static final String MODElPATH = "/home/pcss/github/weka-example/data/model.bin";
 
     public static void main(String[] args) throws Exception {
         
         ModelGenerator mg = new ModelGenerator();
 
         Instances dataset = mg.loadDataset(DATASETPATH);
+
+        DatabaseManager dsmgr = new DatabaseManager();
+        // Save dataset to tablename.
+        dsmgr.saveToDatabase(dataset, "iris");
 
         Filter filter = new Normalize();
 
