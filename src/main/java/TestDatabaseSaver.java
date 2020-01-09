@@ -18,8 +18,8 @@ import weka.filters.unsupervised.attribute.Normalize;
  */
 public class TestDatabaseSaver {
 
-    private static final String DATASETPATH = "/home/pcss/github/weka-example/data/iris.2D.arff";
-    private static final String MODElPATH = "/home/pcss/github/weka-example/data/model.bin";
+    private static final String DATASETPATH = "data/iris.2D.arff";
+    private static final String MODElPATH = "data/model.bin";
 
     public static void main(String[] args) throws Exception {
         
