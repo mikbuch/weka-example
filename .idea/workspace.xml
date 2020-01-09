@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca259e23-cd52-4528-bcdc-f1750cf3e7e7" name="Default Changelist" comment="Major changes due to migration to gradle&#10;&#10;README.md was changed and updated.&#10;&#10;Names of the variables with paths were also changed.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ca259e23-cd52-4528-bcdc-f1750cf3e7e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,24 +65,32 @@
       <option name="project" value="LOCAL" />
       <updated>1578573744378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gradle added">
+      <created>1578573896267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578573896267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Major changes due to migration to gradle&#10;&#10;README.md was changed and updated.&#10;&#10;Names of the variables with paths were also changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Major changes due to migration to gradle&#10;&#10;README.md was changed and updated.&#10;&#10;Names of the variables with paths were also changed." />
+    <MESSAGE value="Gradle added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gradle added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="105" width="953" height="1299" key="CommitChangelistDialog2" timestamp="1578573816772">
+    <state x="803" y="105" width="1464" height="1299" key="CommitChangelistDialog2" timestamp="1578573896055">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="803" y="105" width="953" height="1299" key="CommitChangelistDialog2/-1920.162.1920.1057/2560.129.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1578573816772" />
-    <state x="880" y="473" key="Vcs.Push.Dialog.v2" timestamp="1578573752653">
+    <state x="803" y="105" width="1464" height="1299" key="CommitChangelistDialog2/-1920.162.1920.1057/2560.129.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1578573896055" />
+    <state x="880" y="473" key="Vcs.Push.Dialog.v2" timestamp="1578573900947">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="880" y="473" key="Vcs.Push.Dialog.v2/-1920.162.1920.1057/2560.129.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1578573752653" />
+    <state x="880" y="473" key="Vcs.Push.Dialog.v2/-1920.162.1920.1057/2560.129.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1578573900947" />
     <state x="936" y="566" key="com.intellij.ide.util.TipDialog" timestamp="1578573528524">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

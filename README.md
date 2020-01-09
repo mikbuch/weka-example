@@ -10,9 +10,9 @@ The example is based on [this repository](https://github.com/tahaemara/weka-exam
 
 Onece you will synchronize gradle (to get project dependencies), you have to run `TestDatabaseServer` (_src/java/TestDatabaseSaver.java_). See screenshot below:
 
+![How to run a class](images/running_class.png)
 
-
-Optionally
+Optionally, your data can be saved to the database (given that you have a database instance running locally).
 
 
 ## Notes from my previous version:
