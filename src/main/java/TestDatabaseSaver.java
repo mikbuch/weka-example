@@ -34,8 +34,14 @@ public class TestDatabaseSaver {
         
         ModelGenerator mg = new ModelGenerator();
 
+        // Loading a dataset from an ARFF file.
         Instances dataset = mg.loadDataset(DATASET_PATH);
 
+        /**
+         * Saving to the database
+         *
+         * You have to have a database instance running.
+         */
         DatabaseManager dsmgr = new DatabaseManager();
         // Save dataset to tablename.
         dsmgr.saveToDatabase(dataset, "iris");
